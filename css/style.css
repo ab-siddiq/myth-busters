@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.custom-container{width: 90%; margin: auto;}
+.footer-top {
+    background-color: #F5821F;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.footer-bottom {
+    background-color: #174082;
+    margin-top: -400px;
+    padding-top: 450px;
+    clip-path: polygon(50% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
+    position: relative;
+}
+
+.help {
+    background-color: #F5821F;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.help-div {
+    margin-bottom: -15px;
+}
+
+input[type=text] {
+    border-radius: 40px;
+    background-color: #F5821F;
+    padding: 20px 0 20px 50px;
+    box-shadow: none;
+}
+.input-wrap:hover i.fa.fa-user{color: red;}
+input:hover {
+    background-color: ;
+    border: 1px solid #F75A29;
+}
+
+.icon:hover {
+    color: #F75A29;
+}
+
+.form-control:focus {
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid  #F75A29;
+}
+
+.btn-style {
+    border-radius: 40px;
+    padding: 15px 60px;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-style:hover {
+    background-color: #B02A30;
+    color: white;
+}
+
+.label {
+    display: inline-block;
+    position: relative;
+    left: -37%;
+    top: 30%;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    right: 40%;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #eda86d;
+    color: #eda86d;
+    border-radius: 50%;
+}
+
+.footer-bottom {
+    color: white;
+}
+.footer-bottom h4{border-bottom: 2px solid #45669B; margin-bottom: 10px; padding: 2px 0;}
+.footer-bottom ul {
+    list-style: none;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-bottom: 1px;
+}
+
+.footer-bottom ul li a:hover  {
+    color: #F57A4D;
+    border-bottom: 1px solid #F57A4D ;
+    transition: .5s;
+}
+.social ul li {padding-right: ;}
+
+.copy-right {
+    background-color: #F5821F;
+    color: white;
+    padding: 20px 0;
+}
