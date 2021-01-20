@@ -116,7 +116,7 @@ input:hover {
 
 .footer-bottom ul li a:hover  {
     color: #F57A4D;
-    border-bottom: 1px solid #F57A4D ;
+    
     transition: .5s;
 }
 .social ul li {padding-right: ;}
@@ -126,7 +126,8 @@ input:hover {
     color: white;
     padding: 20px 0;
 }
-h4>ul>li,.footer-bottom h4{font-size: 14px; line-height: 20px;color:#E6EBF2 ;}
+.footer-bottom h4{font-size: 18px; line-height: 20px;color:#E6EBF2 ;font-family: lato-bold;padding-bottom: 10px;}
+h4>ul>li{font-size: 14px; line-height: 20px;color:#E6EBF2 ;}
 .footer-bottom-mobile{display: none;}
 .footer-bottom-laptop{display: block;}
 @media screen and(max-width:1300px){
