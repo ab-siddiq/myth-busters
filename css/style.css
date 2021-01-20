@@ -17,7 +17,7 @@
     position: relative;
     width: 85%;
     margin: auto;
-    padding: 10px 50px;
+    padding: 15px 50px;
     border-radius: 10px;
     z-index: 1;
     
@@ -40,6 +40,7 @@
     border-top-right-radius: 10px;
     color: #F8A762;
     font-family: lato-bold;
+    font-size: 15px;
 }
 
 .help-div {
@@ -49,7 +50,7 @@
 input[type=text] {
     border-radius: 40px;
     background-color: #F5821F;
-    padding: 20px 0 20px 50px;
+    padding: 10px 0 20px 50px;
     box-shadow: none;
 }
 .input-wrap:hover i.fa.fa-user{color: red;}
@@ -70,7 +71,7 @@ input:hover {
 
 .btn-style {
     border-radius: 40px;
-    padding: 15px 60px;
+    padding: 12px 30px;
     border: 1px solid white;
     color: white;
 }
@@ -90,7 +91,7 @@ input:hover {
 .icon {
     display: inline-block;
     position: relative;
-    right: 41%;
+    right: 44%;
     top: 50%;
     height: 30px;
     width: 30px;
@@ -119,7 +120,8 @@ input:hover {
     
     transition: .5s;
 }
-.social ul li {padding-right: ;}
+.social ul li {display: inline-block;}
+.social-icon i{height: 30px; width: 30px; background-color: red; border: 1px solid red; border-radius: 50%;}
 
 .copy-right {
     background-color: #F5821F;
