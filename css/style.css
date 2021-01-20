@@ -1,18 +1,29 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: lato-regular;
+}
+@font-face{
+    font-family: lato-regular;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+@font-face{
+    font-family: lato-bold;
+    src: url('../fonts/Lato-Bold.ttf');
 }
 .custom-container{width: 90%; margin: auto;}
 .footer-top {
     background-color: #F5821F;
     position: relative;
-    width: 90%;
+    width: 85%;
     margin: auto;
-    padding: 50px;
+    padding: 10px 50px;
     border-radius: 10px;
     z-index: 1;
+    
 }
-
+.footer-top h2, .footer-top h5, .footer-top p{color: white;}
+.footer-top h2{font-family: lato-bold;}
 .footer-bottom {
     background-color: #174082;
     margin-top: -400px;
@@ -25,7 +36,10 @@
     background-color: #F5821F;
     display: inline-block;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #F8A762;
+    font-family: lato-bold;
 }
 
 .help-div {
@@ -76,7 +90,7 @@ input:hover {
 .icon {
     display: inline-block;
     position: relative;
-    right: 40%;
+    right: 41%;
     top: 50%;
     height: 30px;
     width: 30px;
@@ -111,4 +125,23 @@ input:hover {
     background-color: #F5821F;
     color: white;
     padding: 20px 0;
+}
+h4>ul>li,.footer-bottom h4{font-size: 14px; line-height: 20px;color:#E6EBF2 ;}
+.footer-bottom-mobile{display: none;}
+.footer-bottom-laptop{display: block;}
+@media screen and(max-width:1300px){
+    
+}
+@media screen and (min-width: 1000px) {
+    .icon {
+      
+          
+  
+          
+      }
+  }
+@media  screen and(max-width:700px){
+    .footer-bottom-laptop{display: none;}
+    .footer-bottom-mobile{display: block;}
+    
 }
