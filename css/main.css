@@ -74,8 +74,8 @@ h2 {
     padding: 30px 30px 0 30px;
     background-color: #FFFFFF;
     position: absolute;
-    margin-top: -50px;
-    margin: -50px 100px 0 100px;
+    
+    margin: -50px 100px 0px 100px;
 }
 
 .chapter-menu {
@@ -218,7 +218,7 @@ hr.line {
 .chapter-4-bottom-img {
     width: 100%;
     height: 50px;
-  background-position: top;
+    background-position: top;
 }
 
 .chapter-4-bottom-img img {
@@ -226,3 +226,33 @@ hr.line {
 }
 
 /* videos */
+
+
+@media (max-width:830px) {
+    .chapter-index{ margin-left: 10px; margin-right: 10px;}
+    .investment{margin-top: 20px; padding-top: 50px;}
+    .investment .row {
+        padding: 80px 50px 10px;
+    }
+    .chapter-bottom-card {margin: 0 50px 50px 50px;}
+}
+@media (max-width:630px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .investment{margin-top: 20px; padding-top: 80px;}
+}
+@media (max-width:550px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .investment{margin-top: 20px; padding-top: 100px;}
+}
+@media (max-width:500px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .investment{margin-top: 20px; padding-top: 150px;}
+}
+@media (max-width:450px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .investment{margin-top: 20px; padding-top: 200px;}
+}
+@media (max-width:425px) {
+    /* .chapter-index{ margin-bottom: 200px; padding: 100px;} */
+    .investment{margin-top: 20px; padding-top: 260px;}
+}
