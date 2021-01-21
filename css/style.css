@@ -223,13 +223,13 @@ input:hover, .form-control-feedback i:hover  {
 
 
 
-@media screen and(max-width:700px) {
+@media (max-width:1000px) {
     .footer-bottom-laptop {
         display: none;
     }
 
     .footer-bottom-mobile {
-        display: block;
+        display: inline-block;
     }
 
 }

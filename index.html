@@ -578,8 +578,8 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="footer-bottom footer-bottom-mobile px-5">
-            <div class="custom-container">
+         <div class="footer-bottom  px-5">
+            <div class="custom-container footer-bottom-mobile">
                 <div class="row m-auto ">
                     <div class="col-lg-2 col-md-12 col-sm-12">
                         <div class="accordion" data-expander="my-accordion">
@@ -667,7 +667,7 @@
                                     <li class=""><a href="" class="">Call us on our toll free number</a></li>
                                     <li class=""><a href="" class="">+8801895798345834</a></li>
                                 </ul>
-                                <ul class="d-flex social-icon ">
+                                <ul class="d-flex social-icon list-inline">
                                     <li class="px-2"><a href="" class=""><i class="fab fa-linkedin-in"></i></a></li>
                                     <li class="px-2"><a href="" class=""><i class="fab fa-facebook-f"></i></a></li>
                                     <li class="px-2"><a href="" class=""><i class="fab fa-youtube"></i></a></li>
@@ -679,7 +679,7 @@
 
                 </div>
             </div>
-        </div> -->
+        </div> 
         <div class="copy-right text-center">
             <p class="m-auto">&copy; all righ reserve</p>
         </div>
@@ -690,16 +690,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/jquery.expander.min.js"></script>
     <script>
-        var windowWidth = $(window).width();
-        if (windowWidth < 768) {
+        
             $('.dropdown').expander({
                 dropdown: 'bottom'
             });
-        } else {
-            $('.dropdown').expander({
-                dropdown: 'expand'
-            });
-        }
+        
     </script>
 </body>
 
