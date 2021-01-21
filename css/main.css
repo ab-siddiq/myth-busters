@@ -14,8 +14,21 @@
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
 
+
+}
+
+.investment h3 {
+    display: inline-block;
+    background-color: #F8A03F;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.investment h3,
+h2 {
+    color: #335790;
 }
 
 #chapter-1 {
@@ -41,6 +54,7 @@
     background-position: top;
     background-size: cover;
 }
+
 .curve-grey {
     height: 50px;
     width: 100%;
@@ -49,7 +63,10 @@
     background-size: cover;
 }
 
-.investment .row{padding: 150px 100px 50px; margin-bottom: 100px;}
+.investment .row {
+    padding: 80px 100px 10px;
+}
+
 .chapter-index {
     border-radius: 10px;
     box-shadow: 3px 3px 5px gray;
@@ -112,6 +129,36 @@
     }
 }
 
+.chapter-bottom-card {
+    box-shadow: 5px 5px 30px gray;
+    margin: 0 100px 50px 100px;
+    padding: 20px 20px;
+
+    border-radius: 7px;
+}
+
+.chapter-bottom-card div {
+    margin: 15px 15px;
+}
+
+.chapter-bottom-card h5 {
+    color: #204181;
+}
+
+.chapter-bottom-card p {
+    color: #707A86;
+}
+
+.chapter-bottom-card .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #FC761E;
+}
+
+.chapter-bottom-card .btn:hover {
+    background-color: #B32D2F;
+}
+
 .custom-card {
     padding: 20px 20px;
     background-color: #FFFFFF;
@@ -155,6 +202,7 @@ hr.line {
     margin-left: 5px;
     text-align: center;
     padding-top: 2px;
+
 }
 
 .chapter-4-bottom-curve {
@@ -169,7 +217,8 @@ hr.line {
 
 .chapter-4-bottom-img {
     width: 100%;
-    height: 200px;
+    height: 50px;
+  background-position: top;
 }
 
 .chapter-4-bottom-img img {
