@@ -1,10 +1,10 @@
-.top-header  {
+.top-header {
     height: 200px;
     width: 100%;
     background-image: url('../images/header-inside-curve.svg');
     background-size: cover;
-    background-position:bottom;
-    margin-bottom: ;
+    background-position: bottom;
+
 }
 
 .learn-background {
@@ -13,15 +13,105 @@
     background-image: url('../images/learn-bg.jpg');
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     
+
 }
 
-.chapter-index{
+#chapter-1 {
+    background-color: #FEF7EB;
+}
+
+#chapter-2 {
+    background-color: #F5FAFB;
+}
+
+#chapter-3 {
+    background-color: #FDF5E3;
+}
+
+#chapter-4 {
+    background-color: #F5F9FB;
+}
+
+.curve {
+    height: 50px;
+    width: 100%;
+    background-image: url('../images/gradient-curve.png');
+    background-position: top;
+    background-size: cover;
+}
+.curve-grey {
+    height: 50px;
+    width: 100%;
+    background-image: url('../images/gradient-curve-grey.png');
+    background-position: top;
+    background-size: cover;
+}
+
+.investment .row{padding: 150px 100px 50px; margin-bottom: 100px;}
+.chapter-index {
     border-radius: 10px;
     box-shadow: 3px 3px 5px gray;
     margin-top: 10px;
-    padding: 10px;
+    padding: 30px 30px 0 30px;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-top: -50px;
+    margin: -50px 100px 0 100px;
 }
+
+.chapter-menu {
+    margin-bottom: 0;
+}
+
+.chapter-menu ul {
+    list-style: none;
+}
+
+.chapter-menu ul li {
+    display: inline-block;
+    border-right: 2px solid #E5E5E5;
+    margin-bottom: 0;
+}
+
+.chapter-menu ul li:last-child {
+    border-right: none;
+}
+
+.chapter-menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.chapter-menu ul li a:active {
+    border-bottom: 3px solid #97291E;
+}
+
+.chapter-menu ul li a:hover {
+    border-bottom: 3px solid #97291E;
+}
+
+.chapter-menu select {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .chapter-menu ul {
+        display: none;
+    }
+
+    .chapter-menu select {
+        display: inline-block;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        color: #FF6130;
+    }
+}
+
 .custom-card {
     padding: 20px 20px;
     background-color: #FFFFFF;
@@ -34,16 +124,18 @@
 .custom-card p {
     margin: 0;
 }
+
 hr.line-2 {
-  
+
     width: 80px;
     height: 4px;
     background-color: #B02A30;
     opacity: 100%;
     text-align: center;
     margin: auto;
-    
+
 }
+
 hr.line {
     width: 80px;
     height: 4px;
@@ -51,9 +143,6 @@ hr.line {
     opacity: 100%
 }
 
-.row-gap {
-    margin-top: 100px;
-}
 
 .chapter-number {
 
@@ -86,3 +175,5 @@ hr.line {
 .chapter-4-bottom-img img {
     width: 100%;
 }
+
+/* videos */
