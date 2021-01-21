@@ -25,7 +25,7 @@
     width: 85%;
     margin: auto;
     padding: 15px 50px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     border-radius: 10px;
     z-index: 1;
 
@@ -44,7 +44,7 @@
 .footer-bottom {
     background-color: #174082;
     margin-top: -400px;
-    padding-top: 400px;
+    padding-top: 450px;
     clip-path: polygon(50% 0, 100% 20%, 100% 100%, 0 100%, 0 20%);
     position: relative;
 }
@@ -233,5 +233,3 @@ input:hover, .form-control-feedback i:hover  {
     }
 
 }
-
-
