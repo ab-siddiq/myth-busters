@@ -207,7 +207,7 @@ hr.line {
 
 .chapter-4-bottom-curve {
 
-    height: 50px;
+    height: 100px;
     width: 100%;
     background-image: url('../images/gradient-curve-grey.png');
     background-position: top;
@@ -217,13 +217,16 @@ hr.line {
 
 .chapter-4-bottom-img {
     width: 100%;
-    height: 50px;
+    height: 250px;
+    background-image: url('../images/chapter4.jpg');
     background-position: top;
+    background-size: cover;
+    position: absolute;
+    
 }
 
-.chapter-4-bottom-img img {
-    width: 100%;
-}
+.chapter-bottom-btn{margin: -70px 0 0 0;}
+.chapter-bottom-btn a{margin:0 30px;padding: 50x;}
 
 /* videos */
 
