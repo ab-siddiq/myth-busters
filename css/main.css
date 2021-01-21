@@ -227,6 +227,8 @@ hr.line {
 
 .chapter-bottom-btn{margin: -70px 0 0 0;}
 .chapter-bottom-btn a{margin:0 30px;padding: 50x;}
+.chapter-bottom-btn .btn{border-radius: 20px; padding: 10px 15px;}
+.chapter-bottom-btn .btn:hover{background-color: #B22C30; color: #FFFFFF;}
 
 /* videos */
 
