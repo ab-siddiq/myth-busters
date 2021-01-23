@@ -1,2 +1,1 @@
-# <a href="https://ab-siddiq.github.io/ekushe-footer/">LIVE</a>
-# myth-busters
+# <a href="https://ab-siddiq.github.io/myth-busters/">LIVE</a>
